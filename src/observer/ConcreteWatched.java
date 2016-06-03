@@ -24,10 +24,7 @@ public class ConcreteWatched implements Watched{
     @Override
     public void notifyWatchers(String str) {
         for (Watcher watcher : list){
-            watcher.update(str/**
-             * Created by 李争 on 2016/6/3 0003.
-             *
-             */);
+            watcher.update(str);
         }
 
     }

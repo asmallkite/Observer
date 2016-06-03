@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cb9e11d-8614-4940-acc4-c034eb992c02" name="Default" comment="观察者模式">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/observer/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/observer/ConcreteWatched.java" afterPath="$PROJECT_DIR$/src/observer/ConcreteWatched.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/observer/ConcreteWatcher.java" afterPath="$PROJECT_DIR$/src/observer/ConcreteWatcher.java" />
     </list>
     <ignored path="Observer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +48,8 @@
       <file leaf-file-name="ConcreteWatched.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/observer/ConcreteWatched.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="50">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#212#221#0" expanded="true" />
@@ -58,24 +58,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConcreteWatcher.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConcreteWatcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/observer/ConcreteWatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="50">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
               <folding>
-                <element signature="e#165#166#0" expanded="true" />
-                <element signature="e#229#230#0" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/observer/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="350">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -103,10 +103,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/observer/ConcreteWatcher.java" />
-        <option value="$PROJECT_DIR$/src/observer/ConcreteWatched.java" />
         <option value="$PROJECT_DIR$/src/observer/Watcher.java" />
         <option value="$PROJECT_DIR$/src/observer/Watched.java" />
         <option value="$PROJECT_DIR$/src/observer/Test.java" />
+        <option value="$PROJECT_DIR$/src/observer/ConcreteWatched.java" />
       </list>
     </option>
   </component>
@@ -485,14 +485,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/observer/ConcreteWatched.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/Watched.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#212#221#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -504,30 +501,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/Watched.java">
+    <entry file="file://$PROJECT_DIR$/src/observer/ConcreteWatched.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/observer/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="50">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#212#221#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/observer/ConcreteWatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        <state relative-caret-position="50">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
           <folding>
-            <element signature="e#165#166#0" expanded="true" />
-            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observer/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
